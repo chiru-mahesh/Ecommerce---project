@@ -10,7 +10,7 @@ from otp import genotp
 from cmail import send_mail
 from stoken import endata,dndata
 from werkzeug.utils import secure_filename #used to remove extra space,',',.,/
-mydb=connection.MySQLConnection(user='root',host='localhost',password='Admin@23',db='ecom29db')
+mydb=connection.MySQLConnection(user='flaskuser',host='localhost',password='Admin@23',db='ecom29db')
 client = razorpay.Client(auth=("rzp_test_TEuFBgBKeyncR9", "fvQPMFoCIbPQkWe1u50zFwAW"))
 import os
 from io import BytesIO
